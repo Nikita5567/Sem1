@@ -11,7 +11,10 @@ string numberA = Console.ReadLine()!;
 Console.WriteLine("Введите второе число");
 string numberB = Console.ReadLine()!;
  int numberIntB = Convert.ToInt32(numberB);
- if (numberIntA < numberIntB)
+ if (numberIntA < numberIntB )
  {
-    Console.WriteLine("max = numberB");
+    Console.WriteLine("max = numberIntB, min = numberIntA"); 
+ } else {
+   Console.WriteLine("max = numberIntA, min = numberIntB");
  }
+ 
